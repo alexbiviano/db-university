@@ -23,3 +23,5 @@ Dopo aver testato le vostre query con MySQL Workbench, riportatele in un file tx
 SELECT \* FROM studenti WHERE YEAR(data_nascita) = 1990;
 
 2. Selezionare tutti i corsi che valgono più di 10 crediti
+
+SELECT name, cfu FROM courses WHERE (cfu) > 10;
