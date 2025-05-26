@@ -41,3 +41,7 @@ SELECT date, hour,course_id FROM exams WHERE date = '2020-06-20' AND hour >= '14
 6. Selezionare tutti i corsi di laurea magistrale
 
 SELECT department_id, name,level FROM degrees WHERE level = 'magistrale'
+
+7. Da quanti dipartimenti è composta l'università?
+
+SELECT id, name FROM departments
