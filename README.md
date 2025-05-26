@@ -33,3 +33,7 @@ SELECT \* FROM studenti WHERE DATE_ADD(data_nascita, INTERVAL 30 YEAR) < CURDATE
 4. Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso di laurea
 
 SELECT name, period,year FROM courses WHERE period = 'I semestre' AND year = '1'
+
+5. Selezionare tutti gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del 20/06/2020 (21)
+
+SELECT date, hour,course_id FROM exams WHERE date = '2020-06-20' AND hour >= '14:00:00'
