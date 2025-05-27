@@ -1,0 +1,10 @@
+Query GROUP BY:
+
+ESERCIZIO 1, SELECT YEAR(enrolment_date) as year, COUNT(*) as total_enrollments
+FROM students 
+GROUP BY YEAR(enrolment_date)
+ORDER BY year;:
+2018	912
+2019	1709
+2020	1645
+2021	734

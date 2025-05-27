@@ -49,3 +49,7 @@ SELECT id, name FROM departments
 8. Quanti sono gli insegnanti che non hanno un numero di telefono?
 
 SELECT COUNT(\*) FROM insegnanti WHERE phone IS NULL;
+
+27/05
+
+Utilizzando lo stesso database di ieri, eseguite le query in allegato. Caricate un secondo file nella stessa repo di ieri (db-university) con le query di oggi.
