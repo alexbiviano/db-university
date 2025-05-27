@@ -1,0 +1,3 @@
+1. Selezionare tutti gli studenti iscritti al corso di laurea in economia.
+
+EX-1 { SELECT students.* FROM students JOIN degrees ON students.degree_id = degrees.id WHERE degrees.name = 'Corso di Laurea in Economia'; }
