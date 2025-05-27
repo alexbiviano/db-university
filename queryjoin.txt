@@ -1,3 +1,7 @@
 1. Selezionare tutti gli studenti iscritti al corso di laurea in economia.
 
 EX-1 { SELECT students.* FROM students JOIN degrees ON students.degree_id = degrees.id WHERE degrees.name = 'Corso di Laurea in Economia'; }
+
+2. Selezionare tutti i corsi di laurea magistrale nel dipartimento di neuroscienze
+
+EX-2 { SELECT degrees.* FROM degrees JOIN departments ON degrees.department_id = departments.id WHERE departments.name = 'Neuroscienze' AND degrees.level = 'magistrale'; }
